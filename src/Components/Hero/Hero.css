@@ -1,0 +1,108 @@
+.hero{
+    position: relative;
+    margin-top: 50px;
+    margin-left: 6%;
+    margin-right: 6%;
+    padding: 1rem;
+    min-height: 100vh;
+}
+
+.hero-text p:first-child {
+    margin-bottom: 20px; 
+
+}
+.hero-text p:last-child {
+    margin-top: 20px; 
+}
+
+.hero-text {
+    line-height: 3.7rem; 
+    text-align: left;
+    font-size: 3.7rem;
+    color: #fff;
+    font-size: 3.8rem;   
+    font-weight: 600;
+    line-height: 4rem;
+    margin: auto;
+}
+
+@media (max-width: 768px) {
+    .hero-text {
+        font-size: 40px;  
+        line-height: 50px;
+    }
+}
+
+.hero-explore img {
+    width: 60px; 
+    height: 60px; 
+}
+.hero-explore{
+    display:flex;
+    align-items:center;
+    gap: 6px;
+    width: fit-content;
+    margin-top: 3%;
+    padding: 0.2rem 0.5rem;
+    padding-left: 8px;   
+    border-radius: 60px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.hero-explore p{
+    color: #292929;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.hero-dot-play{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+}
+
+.hero-dots{
+    display:flex;
+    align-items: center;
+    gap: 8px;
+    list-style: none;
+}
+
+.hero-dot{
+    width: 12px;
+    height: 12px;
+    background: #fff;
+    border-radius: 7.5px;
+    cursor: pointer;
+}
+
+.hero-dot.orange{
+    background: orangered;
+    
+}
+
+.hero-play{
+    display: flex;
+    align-items: center;
+    gap:8px;
+    cursor: pointer;
+    position:fixed;
+    bottom: 8vh;
+    right: 20px;
+    z-index: 10;
+    margin-right: 6%;
+}
+
+.hero-play img {
+    width: 60px; 
+    height: 60px; 
+}
+
+.hero-play p{
+    color: #fff;
+    font-size: 15px;
+
+}

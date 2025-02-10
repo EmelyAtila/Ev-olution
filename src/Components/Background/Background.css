@@ -1,0 +1,19 @@
+
+.background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    object-fit: cover; /* Garante que a imagem/vídeo cubra toda a tela */
+    z-index: -1;
+}
+
+@keyframes fadeIn {
+    from {opacity: 0;}
+    to {opacity: 1;}
+}
+
+.fade-in{
+    animation: fadeIn 500ms ease-in-out;
+}
